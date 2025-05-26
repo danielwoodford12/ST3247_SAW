@@ -23,38 +23,16 @@ Our goal was to **estimate μ empirically** by simulating long walks and applyin
 
 ---
 
-## 💡 Key Methods
-
-- **Sequential Monte Carlo (SMC):**  
-  Used to extend walks iteratively with importance sampling and resampling, incorporating mutation steps to maintain diversity.
-
-- **Pivot-Based Recursive Sampling:**  
-  Employed to generate diverse SAWs and recursively estimate growth ratios \( C_n / C_{n-1} \).
-
-- **Log-space Estimation:**  
-  Used log-domain summation (log-sum-exp) to prevent underflow in recursive calculations over large walks.
-
-- **Degeneracy Reduction:**  
-  Introduced pivot mutations during resampling to reduce particle duplication and improve convergence.
-
----
-
 ## Methods
 -Naive Monte Carlo
--Rosenbluth Method
+-Rosenbluth 
 -Sequential Monte Carlo (SMC)
--Pivot-Based 
+-Pivot-Based Recursive Formulation
 
 ## 📊 Results
 
-- Achieved **μ̂ ≈ 2.6397** using SMC with pivot mutations for L ≈ 2000–2560  
-- **Relative error** compared to known μ:  
-  \[
-  \frac{|2.6397 - 2.6382|}{2.6382} \approx 0.057\%
-  \]
-- Demonstrated reliable convergence at longer lengths where exact enumeration becomes infeasible
-- Validated estimates against OEIS benchmark values for short-length SAWs
-
+- **μ̂ ≈ 2.64029** using SMC with pivot mutations (L = 2300) 
+- **μ̂ ≈ 2.63694** using pivot-based recursive formulation (L = 20,480)
 ---
 
 ## Technologies
