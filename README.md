@@ -31,7 +31,7 @@ Our goal was to **estimate μ empirically** by simulating long walks.
 ## Results
 
 ### Estimates
-- **μ̂ ≈ 2.64029** using SMC with pivot mutations (L = 2300) 
+- **μ̂ ≈ 2.64029** using SMC with pivot mutations (L = 2,300) 
 - **μ̂ ≈ 2.63694** using pivot-based recursive formulation (L = 20,480)
 
 ### Relative Error of Estimates
