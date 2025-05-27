@@ -1,7 +1,7 @@
 # EDIT RESULTS, TECH, AND REFERENCES PLEASE
 # Structured Sampling of 2D Walk Spaces via Monte Carlo Methods
 
-This project implements advanced Monte Carlo sampling techniques to estimate the **connective constant (μ)** for *self-avoiding walks* (SAWs) on a 2D square lattice. Using **Sequential Monte Carlo (SMC)**, **pivot-based recursive sampling**, and probabilistic estimators, we achieved **<0.1% error** compared to theoretical benchmarks for walk lengths up to **L = 2560**.
+This project implements advanced Monte Carlo sampling techniques to estimate the **connective constant (μ)** for *self-avoiding walks* (SAWs) on a 2D square lattice. 
 
 ---
 
