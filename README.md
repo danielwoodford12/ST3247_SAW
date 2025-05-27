@@ -31,7 +31,7 @@ Our goal was to **estimate μ empirically** by simulating long walks.
 ## Results
 
 ### Estimates
-- **μ̂ ≈ 2.64029** using SMC with pivot mutations (L = 2,300) 
+- **μ̂ ≈ 2.64029** using SMC (L = 2,300) 
 - **μ̂ ≈ 2.63694** using pivot-based recursive formulation (L = 20,480)
 
 ### Relative Error of Estimates
@@ -61,12 +61,11 @@ $\[
 
 ## Future Work
 
-- Implement more intelligent parallelization
 - Reattempt with improved computational capabilities and longer runtimes
 - Explore Domb-Joyce-style energy weighting to enable multicanonical sampling  
 - Extend to 3D lattice SAWs  
 - Apply methods to simulate polymers with repulsion or attraction constraints
-
+- Utilize more mutation strategies
 ---
 
 ## References
