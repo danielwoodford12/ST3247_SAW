@@ -40,7 +40,7 @@ Our goal was to **estimate μ empirically** by simulating long walks.
 #### For $\( \hat{\mu}_2 = 2.64029 \)$:
 
 $\[
-\text{Relative Error} = \left| \frac{2.64029 - 2.6381585}{2.6381585} \right| \times 100 \approx 0.0807\%
+\text{Relative Error} = \left| \frac{2.64029 - 2.6381585}{2.6381585} \right| \approx 0.000807
 \]$
 
 ---
@@ -48,7 +48,7 @@ $\[
 #### For $\( \hat{\mu}_1 = 2.63694 \)$:
 
 $\[
-\text{Relative Error} = \left| \frac{2.63694 - 2.6381585}{2.6381585} \right| \times 100 \approx 0.0462\%
+\text{Relative Error} = \left| \frac{2.63694 - 2.6381585}{2.6381585} \right|\approx 0.000462
 \]$
 
 --- 
