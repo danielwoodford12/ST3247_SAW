@@ -13,7 +13,7 @@ $$
 \mu = \lim_{n \to \infty} C_n^{1/n}
 $$
 
-where \( C_n \) is the number of self-avoiding walks of length \( n \). For 2D square lattices, \( \mu \) is known to be approximately:
+where $\( C_n \)$ is the number of self-avoiding walks of length $\( n \)$. For 2D square lattices, mu (μ) is known to be approximately:
 
 $$
 \mu \approx 2.63815853035
