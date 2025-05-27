@@ -36,26 +36,20 @@ Our goal was to **estimate μ empirically** by simulating long walks.
 - **μ̂ ≈ 2.63694** using pivot-based recursive formulation (L = 20,480)
 
 ### Relative Error of Estimates
-#### For \( \hat{\mu}_1 = 2.63694 \):
+#### For $\( \hat{\mu}_1 = 2.63694 \)$:
 
-\[
+$\[
 \text{Relative Error} = \left| \frac{2.63694 - 2.6381585}{2.6381585} \right| \times 100 \approx 0.0462\%
-\]
+\]$
 
 ---
 
 #### For \( \hat{\mu}_2 = 2.64029 \):
 
-\[
+$\[
 \text{Relative Error} = \left| \frac{2.64029 - 2.6381585}{2.6381585} \right| \times 100 \approx 0.0807\%
-\]
+\]$
 
----
-
-### ✅ Summary:
-
-- \( \hat{\mu}_1 = 2.63694 \) → **Relative Error** ≈ **0.0462%**
-- \( \hat{\mu}_2 = 2.64029 \) → **Relative Error** ≈ **0.0807%**
 ---
 
 ## Technologies
