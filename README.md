@@ -56,7 +56,7 @@ $\[
 ## Technologies
 
 - **Languages:** Python
-- **Libraries:** NumPy, PyLab, Numba, 
+- **Libraries:** NumPy, Numba
 
 ---
 
@@ -77,4 +77,4 @@ $\[
 - M. Tabrizi. (2015). *Rosenbluth Algorithm Studies of Self-avoiding Walks*
 - OEIS A001411 – Number of self-avoiding walks
 - Arnaud Doucet, Nando de Freitas, and Neil Gordon. *An Introduction to Sequential Monte Carlo Methods*
-- Lawler, G. F. (2004). *The connective constant of the square lattice*
+
