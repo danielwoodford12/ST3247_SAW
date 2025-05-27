@@ -1,7 +1,7 @@
 # EDIT RESULTS, TECH, AND REFERENCES PLEASE
 # Structured Sampling of 2D Walk Spaces via Monte Carlo Methods
 
-This project implements advanced Monte Carlo sampling techniques to estimate the **connective constant (μ)** for *self-avoiding walks* (SAWs) on a 2D square lattice. 
+This project implements different Monte Carlo sampling techniques to estimate the **connective constant (μ)** for *self-avoiding walks* (SAWs) on a 2D square lattice. 
 
 ---
 
@@ -9,15 +9,15 @@ This project implements advanced Monte Carlo sampling techniques to estimate the
 
 A *self-avoiding walk* is a lattice path that does not revisit the same point. These walks are used to model polymer chains in statistical physics, and their growth rate is captured by the **connective constant** μ:
 
-\[
+$$
 \mu = \lim_{n \to \infty} C_n^{1/n}
-\]
+$$
 
-where \( C_n \) is the number of self-avoiding walks of length \( n \). For 2D square lattices, μ is known to be approximately:
+where \( C_n \) is the number of self-avoiding walks of length \( n \). For 2D square lattices, \( \mu \) is known to be approximately:
 
-\[
+$$
 \mu \approx 2.63815853035
-\]
+$$
 
 Our goal was to **estimate μ empirically** by simulating long walks and applying **recursive estimators** based on sampled counts.
 
@@ -38,7 +38,7 @@ Our goal was to **estimate μ empirically** by simulating long walks and applyin
 ## Technologies
 
 - **Languages:** Python
-- **Libraries:** NumPy, matplotlib, SciPy (for numerical support)
+- **Libraries:** NumPy, PyLab, Numba, 
 
 ---
 
